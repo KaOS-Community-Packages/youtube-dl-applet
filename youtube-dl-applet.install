@@ -1,0 +1,9 @@
+ 
+post_install() {
+    echo "Drag /usr/share/applications/youtube-dl-applet.desktop to your tray to use it."
+}
+
+post_upgrade() {
+    post_install
+}
+    
